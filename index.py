@@ -7,7 +7,7 @@ from functools import wraps
 app = Flask(__name__)
 
 # ============ CONFIG ============
-API_KEY        = os.environ.get("API_KEY", "TITANKING")
+API_KEY        = os.environ.get("API_KEY", "TITANGOD")
 UPSTREAM_URL   = os.environ.get("UPSTREAM_URL", "https://rtf-api-server.onrender.com/api")
 UPSTREAM_KEY   = os.environ.get("UPSTREAM_KEY", "demo2")
 OWNER          = os.environ.get("OWNER", "@TITANCONTACT @g0zig")
@@ -71,7 +71,7 @@ def inject_credits(data):
 @app.route("/")
 def home():
     return jsonify({
-        "name": "Spell Info API",
+        "name": "TITAN GOD API",
         "version": VERSION,
         "owner": OWNER,
         "channel": CHANNEL,
